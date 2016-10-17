@@ -2,7 +2,8 @@ body {
     margin-left:200px;
     margin-right:200px;
     padding:0;
-    font-family:
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
   }
 
   .clearboth {
@@ -34,6 +35,13 @@ h3 {
   margin-right:230px;
 }
 
+img {
+  height:145px;
+  float:right;
+  margin-right:50px;
+  margin-top:15px;
+}
+
 .link {
   padding-top:5px;
   text-align:center;
@@ -51,10 +59,4 @@ a:visited {
 
 a:hover {
   color:red;
-}
-
-img {
-  height:160px;
-  float:right;
-  margin-right:20px;
 }

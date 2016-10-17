@@ -5,16 +5,37 @@ body {
     font-family:
   }
 
+  .clearboth {
+    clear:both;
+  }
+
 h1 {
   font-weight:bold;
   text-align:center;
 }
 
+h3 {
+  padding:0;
+}
+
 .lorem {
   text-align:justify;
+  float:left;
+  margin-top:-20px;
+}
+
+.ulist {
+  float:left;
+  margin-left:20px;
+}
+
+.olist {
+  float:right;
+  margin-right:230px;
 }
 
 .link {
+  padding-top:5px;
   text-align:center;
   font-weight:bold;
   font-size:20px;
@@ -30,4 +51,10 @@ a:visited {
 
 a:hover {
   color:red;
+}
+
+img {
+  height:160px;
+  float:right;
+  margin-right:20px;
 }
